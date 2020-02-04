@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc406be-9d72-4d7e-ac09-cffd7e947d09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/view/Application.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.d/01.resolve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.d/svg-support.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/org.example.KotlinReact.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/org.example.KotlinReact.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/org.example.KotlinReact.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/org.example.KotlinReact.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +24,34 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinReact" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinReact" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinReact" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinReact" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -52,7 +78,120 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.KotlinReact [browserDevelopmentWebpack]">
+    <configuration name="KotlinReact [browserDevelopmentWebpack]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="browserDevelopmentWebpack" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="KotlinReact [browserProductionWebpack]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="browserProductionWebpack" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="KotlinReact [browserWebpack]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="browserWebpack" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="KotlinReact [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="KotlinReact [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.KotlinReact [browserDevelopmentWebpack]" />
+        <item itemvalue="Gradle.KotlinReact [browserWebpack]" />
+        <item itemvalue="Gradle.KotlinReact [browserProductionWebpack]" />
+        <item itemvalue="Gradle.KotlinReact [build]" />
+        <item itemvalue="Gradle.KotlinReact [clean]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,7 +205,7 @@
       <updated>1580808401333</updated>
       <workItem from="1580808456051" duration="60000" />
       <workItem from="1580808523668" duration="1386000" />
-      <workItem from="1580815672122" duration="317000" />
+      <workItem from="1580815672122" duration="1294000" />
     </task>
     <task id="LOCAL-00001" summary="settings.gradle.kts">
       <created>1580809543239</created>
@@ -75,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580809543239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="build.gradle.kts">
+      <created>1580816056313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580816056313</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,16 +232,33 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="settings.gradle.kts" />
-    <option name="LAST_COMMIT_MESSAGE" value="settings.gradle.kts" />
+    <MESSAGE value="build.gradle.kts" />
+    <option name="LAST_COMMIT_MESSAGE" value="build.gradle.kts" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="525" y="95" key="CommitChangelistDialog2" timestamp="1580809542984">
+    <state x="525" y="95" key="CommitChangelistDialog2" timestamp="1580816056096">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state x="525" y="95" key="CommitChangelistDialog2/0.23.1680.939@0.23.1680.939" timestamp="1580809542984" />
-    <state x="336" y="210" key="RollbackChangesDialog" timestamp="1580808818815">
+    <state x="525" y="95" key="CommitChangelistDialog2/0.23.1680.939@0.23.1680.939" timestamp="1580816056096" />
+    <state width="1053" height="243" key="GridCell.Tab.0.bottom" timestamp="1580816938569">
       <screen x="0" y="23" width="1680" height="939" />
     </state>
-    <state x="336" y="210" key="RollbackChangesDialog/0.23.1680.939@0.23.1680.939" timestamp="1580808818815" />
+    <state width="1053" height="243" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1580816938569" />
+    <state width="1053" height="243" key="GridCell.Tab.0.center" timestamp="1580816938568">
+      <screen x="0" y="23" width="1680" height="939" />
+    </state>
+    <state width="1053" height="243" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1580816938568" />
+    <state width="1053" height="243" key="GridCell.Tab.0.left" timestamp="1580816938567">
+      <screen x="0" y="23" width="1680" height="939" />
+    </state>
+    <state width="1053" height="243" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1580816938567" />
+    <state width="1053" height="243" key="GridCell.Tab.0.right" timestamp="1580816938568">
+      <screen x="0" y="23" width="1680" height="939" />
+    </state>
+    <state width="1053" height="243" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1580816938568" />
+    <state x="336" y="210" key="RollbackChangesDialog" timestamp="1580816148016">
+      <screen x="0" y="23" width="1680" height="939" />
+    </state>
+    <state x="336" y="210" key="RollbackChangesDialog/0.23.1680.939@0.23.1680.939" timestamp="1580816148016" />
   </component>
 </project>
